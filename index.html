@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marry me</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: aquamarine;
+            font-family: cursive, sans-serif;
+            background-color: #f0f0f0;
+            background-image: url('https://i.pinimg.com/736x/f0/eb/73/f0eb736fb12346bc269dab3c8908cd7c.jpg');
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #fff;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #cf4242;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff0000;
+        }
+
+        @media screen and (max-width: 768px) {
+            @media screen and (max-width: 768px) {
+                h1 {
+                    font-size: 1.2rem;
+                    /* Adjusted font size for readability on smaller screens */
+                }
+
+                button {
+                    padding: 10px 20px;
+                    /* Slightly larger padding for better touch target */
+                    font-size: 1rem;
+                    /* Adjusted font size for better readability */
+                }
+
+                /* You can also adjust grid layout or spacing for small screens */
+                #grid-container {
+                    grid-template-columns: repeat(3, 1fr);
+                    /* Ensure grid items are responsive */
+                    gap: 8px;
+                    /* Reduced gap between grid items */
+                }
+
+                .grid-item {
+                    width: 90px;
+                    /* Reduce the size of grid items for small screens */
+                    height: 90px;
+                    /* Adjust height for better layout */
+                }
+
+                input,
+                button {
+                    font-size: 1rem;
+                    /* Ensure inputs and buttons are readable on phones */
+                }
+
+                .controls {
+                    margin-top: 10px;
+                    /* Reduced margin for better spacing */
+                    text-align: center;
+                    /* Center align controls for a cleaner look */
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Will you marry me?</h1>
+    <button id="yes">Yes</button>
+    <button id="no">No</button>
+    <script>
+        document.getElementById('yes').addEventListener('click', () => {
+            alert('I love you so much, I can\'t live without you.');
+            alert('I want to spend the rest of my life with you.');
+            alert('Ache se padho aage or bhi hai')
+            alert('I want to wake up next to you every morning.');
+            alert('I want to see you smile every day.');
+            alert('I want to be the reason behind your smile.');
+            alert('I want to be the one you can always count on.'); 
+            alert('Aree ruko abhi aur bhi hai');
+            alert('I want to be the one who makes you happy.');
+            alert('I want to be the one who makes you feel special.');
+            alert('I want to be the one who makes you feel loved.');
+            alert('Finally, i luv uh so much');
+        });
+        document.getElementById('no').addEventListener('click', () => {
+            alert(`No, You have to click on YES`);
+        });
+    </script>
+</body>
+
+</html>
